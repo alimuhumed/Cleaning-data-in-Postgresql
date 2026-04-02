@@ -55,7 +55,7 @@ SELECT 'score', COUNT(*) FROM restaurant_inspections WHERE score IS NULL;
 -- UNION ALL is used to stack multiple result sets vertically (row by row) rather than horizontally
 -- CASE statement = Horizontal stacking (columns) - good for wide-format data
 
--- investigate relationships between colums using missing data by counting null records in one column while grouping by values in another 
+`-- investigate relationships between colums using missing data by counting null records in one column while grouping by values in another` 
 SELECT 
 	inspection_type,
 	COUNT(*) AS count
